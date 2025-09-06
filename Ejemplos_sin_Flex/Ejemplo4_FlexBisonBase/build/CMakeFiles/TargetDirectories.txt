@@ -1,0 +1,3 @@
+C:/Compiladores/Ejemplos_Semana_7/Ejemplos_sin_Flex/Ejemplo4_FlexBisonBase/build/CMakeFiles/ejemplo4.dir
+C:/Compiladores/Ejemplos_Semana_7/Ejemplos_sin_Flex/Ejemplo4_FlexBisonBase/build/CMakeFiles/ALL_BUILD.dir
+C:/Compiladores/Ejemplos_Semana_7/Ejemplos_sin_Flex/Ejemplo4_FlexBisonBase/build/CMakeFiles/ZERO_CHECK.dir

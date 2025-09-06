@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Compiladores\Ejemplos_Semana_7\Ejemplos_sin_Flex\Ejemplo4_FlexBisonBase\build\CMakeFiles\e3bbe9028e520b66de6283f32522c801\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0F81149F-6FEE-37A2-BD2E-C51A3A18CD27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

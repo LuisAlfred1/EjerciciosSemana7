@@ -1,0 +1,10 @@
+^C:\COMPILADORES\EJEMPLOS_SEMANA_7\EJEMPLOS_SIN_FLEX\EJEMPLO4_FLEXBISONBASE\BUILD\CMAKEFILES\E3BBE9028E520B66DE6283F32522C801\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Compiladores/Ejemplos_Semana_7/Ejemplos_sin_Flex/Ejemplo4_FlexBisonBase -BC:/Compiladores/Ejemplos_Semana_7/Ejemplos_sin_Flex/Ejemplo4_FlexBisonBase/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Compiladores/Ejemplos_Semana_7/Ejemplos_sin_Flex/Ejemplo4_FlexBisonBase/build/Ejemplo4.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

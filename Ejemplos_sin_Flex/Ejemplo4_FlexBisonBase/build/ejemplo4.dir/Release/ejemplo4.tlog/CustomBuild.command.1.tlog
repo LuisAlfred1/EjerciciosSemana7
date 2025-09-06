@@ -1,0 +1,42 @@
+^C:\COMPILADORES\EJEMPLOS_SEMANA_7\EJEMPLOS_SIN_FLEX\EJEMPLO4_FLEXBISONBASE\BUILD\CMAKEFILES\FA84D75AD62ED5468B5AF489F0CA152D\PARSER.TAB.CPP.RULE
+setlocal
+cd C:\Compiladores\Ejemplos_Semana_7\Ejemplos_sin_Flex\Ejemplo4_FlexBisonBase\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Compiladores/Ejemplos_Semana_7/Ejemplos_sin_Flex/Ejemplo4_FlexBisonBase/build
+if %errorlevel% neq 0 goto :cmEnd
+C:\msys64\mingw64\bin\win_bison.exe --defines=C:/Compiladores/Ejemplos_Semana_7/Ejemplos_sin_Flex/Ejemplo4_FlexBisonBase/build/parser.tab.h -o C:/Compiladores/Ejemplos_Semana_7/Ejemplos_sin_Flex/Ejemplo4_FlexBisonBase/build/parser.tab.cpp C:/Compiladores/Ejemplos_Semana_7/Ejemplos_sin_Flex/Ejemplo4_FlexBisonBase/parser.y
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\COMPILADORES\EJEMPLOS_SEMANA_7\EJEMPLOS_SIN_FLEX\EJEMPLO4_FLEXBISONBASE\BUILD\CMAKEFILES\FA84D75AD62ED5468B5AF489F0CA152D\LEX.YY.CPP.RULE
+setlocal
+cd C:\Compiladores\Ejemplos_Semana_7\Ejemplos_sin_Flex\Ejemplo4_FlexBisonBase\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Compiladores/Ejemplos_Semana_7/Ejemplos_sin_Flex/Ejemplo4_FlexBisonBase/build
+if %errorlevel% neq 0 goto :cmEnd
+C:\msys64\mingw64\bin\win_flex.exe -oC:/Compiladores/Ejemplos_Semana_7/Ejemplos_sin_Flex/Ejemplo4_FlexBisonBase/build/lex.yy.cpp C:/Compiladores/Ejemplos_Semana_7/Ejemplos_sin_Flex/Ejemplo4_FlexBisonBase/scanner.l
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\COMPILADORES\EJEMPLOS_SEMANA_7\EJEMPLOS_SIN_FLEX\EJEMPLO4_FLEXBISONBASE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Compiladores/Ejemplos_Semana_7/Ejemplos_sin_Flex/Ejemplo4_FlexBisonBase -BC:/Compiladores/Ejemplos_Semana_7/Ejemplos_sin_Flex/Ejemplo4_FlexBisonBase/build --check-stamp-file C:/Compiladores/Ejemplos_Semana_7/Ejemplos_sin_Flex/Ejemplo4_FlexBisonBase/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

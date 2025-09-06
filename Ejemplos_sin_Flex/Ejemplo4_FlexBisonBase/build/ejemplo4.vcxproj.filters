@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Compiladores\Ejemplos_Semana_7\Ejemplos_sin_Flex\Ejemplo4_FlexBisonBase\build\parser.tab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Compiladores\Ejemplos_Semana_7\Ejemplos_sin_Flex\Ejemplo4_FlexBisonBase\build\lex.yy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Compiladores\Ejemplos_Semana_7\Ejemplos_sin_Flex\Ejemplo4_FlexBisonBase\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Compiladores\Ejemplos_Semana_7\Ejemplos_sin_Flex\Ejemplo4_FlexBisonBase\build\parser.tab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Compiladores\Ejemplos_Semana_7\Ejemplos_sin_Flex\Ejemplo4_FlexBisonBase\build\CMakeFiles\fa84d75ad62ed5468b5af489f0ca152d\parser.tab.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Compiladores\Ejemplos_Semana_7\Ejemplos_sin_Flex\Ejemplo4_FlexBisonBase\build\CMakeFiles\fa84d75ad62ed5468b5af489f0ca152d\lex.yy.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Compiladores\Ejemplos_Semana_7\Ejemplos_sin_Flex\Ejemplo4_FlexBisonBase\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0F81149F-6FEE-37A2-BD2E-C51A3A18CD27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BC6AEC19-6A39-341D-A121-969A445D61B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A536D969-D31D-3BE8-A531-31CBCE079860}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
